@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "Layer0": "tutorialmod:item/blobium_ingot"
+    "layer0": "tutorialmod:item/blobium_ingot"
   }
 }

@@ -1,5 +1,6 @@
 package net.chromazoma.tutorialmod;
 
+import net.chromazoma.tutorialmod.block.ModBlocks;
 import net.chromazoma.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
