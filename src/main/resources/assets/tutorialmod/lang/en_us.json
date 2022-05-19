@@ -4,5 +4,8 @@
 
 
 
-  "block.tutorialmod.blobium_altar": "The Beasts Altar"
+  "block.tutorialmod.blobium_altar": "The Beasts Altar",
+
+
+  "itemGroup.tutorialmod.blob" : "Blobium Mod"
 }

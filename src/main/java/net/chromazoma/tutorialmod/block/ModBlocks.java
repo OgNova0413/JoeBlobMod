@@ -2,6 +2,7 @@ package net.chromazoma.tutorialmod.block;
 
 import net.chromazoma.tutorialmod.TutorialMod;
 import net.chromazoma.tutorialmod.block.custom.AltarControl;
+import net.chromazoma.tutorialmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -18,7 +19,7 @@ public class ModBlocks {
 
 
     public static final Block BLOBIUM_ALTAR = registerBlock("blobium_altar",
-            new AltarControl(FabricBlockSettings.of(Material.METAL).strength(9999999999999f).nonOpaque()), ItemGroup.MISC);
+            new AltarControl(FabricBlockSettings.of(Material.METAL).strength(9999999999999f).nonOpaque()), ModItemGroup.BLOB);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

@@ -13,7 +13,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item BLOBIUM_INGOT = createItem("blobium_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.BLOB)));
 
 
     private static Item createItem(String name, Item item) {
